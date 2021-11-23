@@ -46,15 +46,16 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img\logo" />
-      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img\subscribe" />
+      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\script" />
+      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\style" />
+      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img\productsList\catalog" />
       <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img" />
-      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img\featureForm" />
-      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img\productsList" />
+      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img\logo" />
     </key>
   </component>
   <component name="RunManager">
@@ -79,7 +80,10 @@
       <workItem from="1636908526684" duration="6000" />
       <workItem from="1637094377494" duration="4388000" />
       <workItem from="1637173057540" duration="11486000" />
-      <workItem from="1637246890976" duration="8591000" />
+      <workItem from="1637246890976" duration="9348000" />
+      <workItem from="1637339924583" duration="13000" />
+      <workItem from="1637426123888" duration="408000" />
+      <workItem from="1637679671984" duration="6958000" />
     </task>
     <servers />
   </component>

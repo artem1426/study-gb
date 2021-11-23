@@ -152,8 +152,8 @@
                 </ul>
             </div>
         </main>
-        <button class="products_button centering">
-            <h4 style="color: rgba(242, 99, 118, 1); line-height: 19px">Browse All Product</h4>
+        <button onclick="document.location.href = 'catalog.html'" class="products_button centering">
+            <h4>Browse All Product</h4>
         </button>
     </section>
     <section class="feature">
@@ -195,7 +195,7 @@
                         FOR OUR NEWLETTER AND PROMOTION
                     </div>
                     <div class="form_input_button">
-                        <input type="email" class="send_mail_form_input" placeholder="Enter Your Email">
+                        <input type="email" class="send_mail_form_input" placeholder="Enter Your Email" required pattern="\S+@[a-z]+.[a-z]+">
                         <button type="button" class="send_mail_form_button" onclick="alert('функционал еще не прикручен!')">
                             <strong class="form_input_button_text">Subscribe</strong>
                         </button>
