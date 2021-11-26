@@ -13,9 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Study/кроссплатформенное программирование" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Next" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,10 +51,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img" />
       <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\script" />
       <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\style" />
       <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img\productsList\catalog" />
+      <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img" />
       <recent name="C:\Users\bsed0\Documents\GitHub\study-gb\second-quarter\img\logo" />
     </key>
   </component>
@@ -85,11 +84,6 @@
       <workItem from="1637339924583" duration="13000" />
       <workItem from="1637426123888" duration="408000" />
       <workItem from="1637679671984" duration="6958000" />
-      <workItem from="1637689753375" duration="5000" />
-      <workItem from="1637778672254" duration="3442000" />
-      <workItem from="1637860197162" duration="81000" />
-      <workItem from="1637860301725" duration="63000" />
-      <workItem from="1637938699686" duration="11497000" />
     </task>
     <servers />
   </component>
