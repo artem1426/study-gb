@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Shop</title>
-    <link href="../style/index.css" rel="stylesheet"/>
-    <link href="../style/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../style/style.css" rel="stylesheet"/>
 </head>
 <body>
 <header class="header">
@@ -16,10 +15,10 @@
         <div class="header__button">
             <img src="../img/Forma_menu.svg">
             <img src="../img/Forma_profile.svg">
-            <img src="../img/Forma_basket.svg">
+            <img onclick="goBasket()" src="../img/Forma_basket.svg">
             <div class="header__basket_value">
                 <img src="../img/Ellipse.png">
-                <strong>1</strong>
+                <strong id="cart_counter">0</strong>
             </div>
         </div>
     </div>
