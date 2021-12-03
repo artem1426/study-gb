@@ -7,21 +7,49 @@
 </head>
 <body>
 <header class="header">
-    <div class="header__container">
+    <nav class="header__container">
         <div class="header__logo">
             <a href="./index.html"><img src="../img/Group_icon.svg"></a>
             <img src="../img/Forma_filter.svg">
         </div>
         <div class="header__button">
-            <img src="../img/Forma_menu.svg">
-            <img src="../img/Forma_profile.svg">
+            <img onclick="showMenu()" src="../img/Forma_menu.svg">
+            <img onclick="goCheckOut()" src="../img/Forma_profile.svg">
             <img onclick="goBasket()" src="../img/Forma_basket.svg">
             <div class="header__basket_value">
                 <img src="../img/Ellipse.png">
                 <strong id="cart_counter">0</strong>
             </div>
         </div>
-    </div>
+        <div class="menu__" id="menu">
+            <div class="menu__button_close">
+                <img onclick="closeMenu()" src="../img/close_button.png" >
+            </div>
+            <div style="margin-left: 25px">
+                <h3>MENU</h3>
+                <ul class="menu__list"><h4>Man</h4>
+                    <li>Accessories</li>
+                    <li>Bags</li>
+                    <li>Denim</li>
+                    <li>T-Shirts</li>
+                </ul>
+                <ul class="menu__list"><h4>WOMAN</h4>
+                    <li>Accessories</li>
+                    <li>Jackets & Coats</li>
+                    <li>Polos</li>
+                    <li>T-Shirts</li>
+                </ul>
+                <ul class="menu__list"><h4>KIDS</h4>
+                    <li>Accessories</li>
+                    <li>Jackets & Coats</li>
+                    <li>Polos</li>
+                    <li>T-Shirts</li>
+                    <li>Shirts</li>
+                    <li>Bags</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
 <section class="bread__crumb">
     <div class="container bread__crumb_cart">
@@ -37,7 +65,7 @@
                      src="/img/productsList/catalog/7.png">
             </div>
             <div class="cart__list_info">
-                <strong>MANGO  PEOPLE  T-SHIRT</strong>
+                <strong>MANGO PEOPLE T-SHIRT</strong>
                 <ul>
                     <li>Price: <span id="cart_list_price_1">$300</span></li>
                     <li>Color: Red</li>
@@ -53,7 +81,7 @@
                      src="/img/productsList/2.png">
             </div>
             <div class="cart__list_info">
-                <strong>MANGO  PEOPLE  T-SHIRT</strong>
+                <strong>MANGO PEOPLE T-SHIRT</strong>
                 <ul>
                     <li>Price: <span id="cart_list_price_2">$300</span></li>
                     <li>Color: Red</li>
@@ -89,10 +117,10 @@
 </main>
 <section class="container">
     <div class="cart__buttons">
-        <button type="button" onclick="alert('function not ready')">
+        <button type="button" onclick="clearLocalStorage()">
             <span>CLEAR SHOPPING CART</span>
         </button>
-        <button type="button" onclick="alert('function not ready')">
+        <button type="button" onclick="goMain()">
             <span>CONTINUE SHOPPING</span>
         </button>
     </div>
