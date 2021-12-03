@@ -150,6 +150,13 @@ body {
   margin-bottom: 5px;
   background: #f7e4e2; }
 
+.product__img:hover {
+  -o-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
 .product__description {
   width: 85%;
   list-style-type: none; }
@@ -659,5 +666,19 @@ body {
 
 .cart__buttons span {
   font-size: 14px; }
+
+/* registration */
+.main__checkout {
+  height: 70vh; }
+
+.text_for_promo {
+  margin-left: 20px; }
+
+.text-style-checkout {
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: 29px !important;
+  letter-spacing: 0 !important;
+  text-align: left !important; }
 
 /*# sourceMappingURL=style.css.map */

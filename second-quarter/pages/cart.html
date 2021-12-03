@@ -14,7 +14,7 @@
         </div>
         <div class="header__button">
             <img src="../img/Forma_menu.svg">
-            <img src="../img/Forma_profile.svg">
+            <img onclick="goCheckOut()" src="../img/Forma_profile.svg">
             <img onclick="goBasket()" src="../img/Forma_basket.svg">
             <div class="header__basket_value">
                 <img src="../img/Ellipse.png">
@@ -37,7 +37,7 @@
                      src="/img/productsList/catalog/7.png">
             </div>
             <div class="cart__list_info">
-                <strong>MANGO  PEOPLE  T-SHIRT</strong>
+                <strong>MANGO PEOPLE T-SHIRT</strong>
                 <ul>
                     <li>Price: <span id="cart_list_price_1">$300</span></li>
                     <li>Color: Red</li>
@@ -53,7 +53,7 @@
                      src="/img/productsList/2.png">
             </div>
             <div class="cart__list_info">
-                <strong>MANGO  PEOPLE  T-SHIRT</strong>
+                <strong>MANGO PEOPLE T-SHIRT</strong>
                 <ul>
                     <li>Price: <span id="cart_list_price_2">$300</span></li>
                     <li>Color: Red</li>
@@ -89,10 +89,10 @@
 </main>
 <section class="container">
     <div class="cart__buttons">
-        <button type="button" onclick="alert('function not ready')">
+        <button type="button" onclick="clearLocalStorage()">
             <span>CLEAR SHOPPING CART</span>
         </button>
-        <button type="button" onclick="alert('function not ready')">
+        <button type="button" onclick="goMain()">
             <span>CONTINUE SHOPPING</span>
         </button>
     </div>
