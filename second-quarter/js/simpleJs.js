@@ -73,3 +73,17 @@ const clearLocalStorage = () => {
     localStorage.setItem('cart_num', '0');
     document.getElementById('cart_counter').textContent = localStorage.getItem('cart_num');
 }
+const showMenu = () => {
+    const menu = document.getElementById('menu');
+    if (menu && menu.style.display) {
+        menu.style.display = '';
+    } else {
+        menu.style.display = 'flex';
+    }
+}
+const closeMenu = () => {
+    const menu = document.getElementById('menu');
+    if (menu) {
+        menu.style.display = '';
+    }
+}

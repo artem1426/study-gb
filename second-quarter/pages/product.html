@@ -7,13 +7,13 @@
 </head>
 <body>
 <header class="header">
-    <div class="header__container">
+    <nav class="header__container">
         <div class="header__logo">
             <a href="./index.html"><img src="../img/Group_icon.svg"></a>
             <img src="../img/Forma_filter.svg">
         </div>
         <div class="header__button">
-            <img src="../img/Forma_menu.svg">
+            <img onclick="showMenu()" src="../img/Forma_menu.svg">
             <img onclick="goCheckOut()" src="../img/Forma_profile.svg">
             <img onclick="goBasket()" src="../img/Forma_basket.svg">
             <div class="header__basket_value">
@@ -21,7 +21,35 @@
                 <strong id="cart_counter">0</strong>
             </div>
         </div>
-    </div>
+        <div class="menu__" id="menu">
+            <div class="menu__button_close">
+                <img onclick="closeMenu()" src="../img/close_button.png" >
+            </div>
+            <div style="margin-left: 25px">
+                <h3>MENU</h3>
+                <ul class="menu__list"><h4>Man</h4>
+                    <li>Accessories</li>
+                    <li>Bags</li>
+                    <li>Denim</li>
+                    <li>T-Shirts</li>
+                </ul>
+                <ul class="menu__list"><h4>WOMAN</h4>
+                    <li>Accessories</li>
+                    <li>Jackets & Coats</li>
+                    <li>Polos</li>
+                    <li>T-Shirts</li>
+                </ul>
+                <ul class="menu__list"><h4>KIDS</h4>
+                    <li>Accessories</li>
+                    <li>Jackets & Coats</li>
+                    <li>Polos</li>
+                    <li>T-Shirts</li>
+                    <li>Shirts</li>
+                    <li>Bags</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
 <main>
     <section class="slider">
