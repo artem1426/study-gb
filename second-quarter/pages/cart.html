@@ -2,9 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Cart</title>
+    <link href="../style/style.css" rel="stylesheet"/>
 </head>
 <body>
-
+<header class="header">
+    <div class="header__container">
+        <div class="header__logo">
+            <a href="./index.html"><img src="../img/Group_icon.svg"></a>
+            <img src="../img/Forma_filter.svg">
+        </div>
+        <div class="header__button">
+            <img src="../img/Forma_menu.svg">
+            <img src="../img/Forma_profile.svg">
+            <img onclick="goBasket()" src="../img/Forma_basket.svg">
+            <div class="header__basket_value">
+                <img src="../img/Ellipse.png">
+                <strong id="cart_counter">0</strong>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="bread__crumb">
+    <div class="container bread__crumb_cart">
+        <p>SHOPPING CART</p>
+    </div>
+</section>
+<main class="container cart">
+    <section class="cart__list">
+        <div class="cart__list_item">
+            <img class="cart__list_info_img" src="../img/close_button.png">
+            <div class="cart__list_img">
+                <img onclick="goProduct('/img/productsList/catalog/7.png')" class="centering"
+                     src="/img/productsList/catalog/7.png">
+            </div>
+            <div class="cart__list_info">
+                <strong>MANGO  PEOPLE  T-SHIRT</strong>
+                <ul>
+                    <li>Price: <span id="cart_list_price_1">$300</span></li>
+                    <li>Color: Red</li>
+                    <li>Size: Xl</li>
+                    <li>Quantity:<span id="cart_list_quantity_1">2</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cart__list_item">
+            <img class="cart__list_info_img" src="../img/close_button.png">
+            <div class="cart__list_img">
+                <img onclick="goProduct('/img/productsList/2.png')" class="centering"
+                     src="/img/productsList/2.png">
+            </div>
+            <div class="cart__list_info">
+                <strong>MANGO  PEOPLE  T-SHIRT</strong>
+                <ul>
+                    <li>Price: <span id="cart_list_price_2">$300</span></li>
+                    <li>Color: Red</li>
+                    <li>Size: Xl</li>
+                    <li>Quantity:<span id="cart_list_quantity_2">2</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="cart__list">
+        <div class="cart__list_item">
+            <form class="shipping_address">
+                <strong>SHIPPING ADRESS</strong>
+                <input type="text" value="Bangladesh">
+                <input type="text" value="State">
+                <input type="text" value="Postcode / Zip">
+                <button type="button" onclick="alert('function not ready')">
+                    <span>GET A QUOTE</span>
+                </button>
+            </form>
+        </div>
+        <div class="cart__list_item">
+            <div class="cart__list_total">
+                <span style="font-size: 11px">SUB TOTAL         $900</span>
+                <span style="font-weight: 700;">GRAND TOTAL      $900</span>
+                <hr>
+                <button type="button" class="cart__list_total_checkout" onclick="alert('function not ready')">
+                    <span>PROCEED TO CHECKOUT</span>
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
+<section class="container">
+    <div class="cart__buttons">
+        <button type="button" onclick="alert('function not ready')">
+            <span>CLEAR SHOPPING CART</span>
+        </button>
+        <button type="button" onclick="alert('function not ready')">
+            <span>CONTINUE SHOPPING</span>
+        </button>
+    </div>
+</section>
+<footer>
+    <section class="subscribe">
+        <div style="width: 100%; height: 100%;; background-color: rgba(244, 244, 244, 0.7); position: absolute"></div>
+        <div class="container subscribe__form">
+            <div class="subscribe__info">
+                <img src="../img/subscribe/subscribe_info_face.svg">
+                <h4 class="subscribe__info_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                    purus condimentum“</h4>
+            </div>
+            <form action="" class="send__mail_form">
+                <div class="send__mail_form_text">
+                    <b>SUBSCRIBE</b><br>
+                    FOR OUR NEWLETTER AND PROMOTION
+                </div>
+                <div class="form__input_button">
+                    <input type="email" class="send__mail_form_input" placeholder="Enter Your Email" required
+                           pattern="\S+@[a-z]+.[a-z]+">
+                    <button type="button" class="send__mail_form_button"
+                            onclick="alert('функционал еще не прикручен!')">
+                        <strong class="form__input_button_text">Subscribe</strong>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="copyright">
+        <div class="container copyright__flex">
+            <strong class="copyright__text">© 2021 Brand All Rights Reserved.</strong>
+            <div class="social__icon">
+                <img src="../img/logo/logo_facebook.svg">
+                <img src="../img/logo/logo_instagram.svg">
+                <img src="../img/logo/logo_pintrest.svg">
+                <img src="../img/logo/logo_twitter.svg">
+            </div>
+        </div>
+    </section>
+</footer>
 </body>
+<script src="../js/simpleJs.js"></script>
 </html>
