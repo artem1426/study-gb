@@ -1,60 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f34f5a0e-edd1-4da6-bb7f-3ef90cd85bf7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firt-quarter/gb_js_shop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/firt-quarter/gb_js_shop/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/ACCESORIES.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/Ellipse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/Forma_basket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/Forma_filter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/Forma_menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/Forma_profile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/Group_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/backet_red.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/carousel_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/down_arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/featureForm/feature_forma_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/featureForm/feature_forma_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/featureForm/feature_forma_3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/filter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/kids.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/logo/logo_facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/logo/logo_instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/logo/logo_pintrest.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/logo/logo_twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/productsList/catalog/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/promo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/subscribe/subscribe_form_backgroung.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/subscribe/subscribe_info_face.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/img/women.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/js/simpleJs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/pages/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/pages/catalog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/pages/product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/pages/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/style/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/style/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-quarter/style/style.css.map" beforeDir="false" />
+    <list default="true" id="207d5ebb-af3a-475a-b453-b6af1cf13f12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/firt-quarter/gb_js_shop" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,12 +29,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Next.js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Artem\Documents\GitHub\study-gb\firt-quarter\JS" />
-      <recent name="C:\Users\Artem\Documents\GitHub\study-gb\firt-quarter\html_CSS_advanced" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
